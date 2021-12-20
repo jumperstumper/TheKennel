@@ -10,7 +10,7 @@ namespace KennelProgram.Data
 {
    public class ApplicationDbContext : DbContext
     {
-        private const string connectionString = "Server=LAPTOP-3CV39V3K;Database=Kennels;Trusted_Connection=True;MultipleActiveResultSets=True";
+        private const string connectionString = "Server=;Database=Kennel;Trusted_Connection=True;MultipleActiveResultSets=True";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
